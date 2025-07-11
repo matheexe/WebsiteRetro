@@ -1,6 +1,6 @@
 body {
   font-family: "Special Gothic Condensed One", sans-serif;
-  background-image: url("../../build/images/bg.jpg");
+  background-image: url("public/images/bg.jpg");
   color: #fff;
 }
 body .container {
