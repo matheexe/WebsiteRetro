@@ -1,0 +1,99 @@
+@import "maps.less";
+
+
+body{
+    font-family: #fonts[fontePadrao];
+    background-image: url("../../src/images/bg.jpg");
+    color: #colors[corLetra];
+
+    .container{
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+
+        header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #colors[corHeader];
+
+            img{
+                width: 100px;
+            }
+
+            h1{
+                font-size: 3em;
+                font-weight: bold;
+            }
+
+            .header-bio{
+                text-align: center;
+
+                .fixed-clock {
+                    color: #colors[corHorario];
+                    padding: 5px;
+                    border: 2px solid #ccc;
+                    background-color: #fff;
+                    border-radius: 10px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    
+                }
+            }
+        }
+
+        main{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-color: #colors[corFundo];
+
+            #ads{
+                color: #colors[corFundo];
+
+                padding: 20px;
+                background-color: #colors[corHorario];
+
+                h3{
+                    font-weight: 200;
+                    font-size: 1.1em;
+                }
+
+                p{
+                    margin: 0 0 15px;
+                }
+
+                img{
+                    max-width: 150px;
+                }
+                
+            }
+
+            #news{
+                margin-left: 20px;
+
+                .news-header{
+                    display: flex;
+                    flex-direction: row;
+                }
+
+                .news-card{
+                    margin-bottom: 50px;
+
+                    h2{
+                        margin: 0;
+                    }
+
+                    p{
+                        margin-top: 5px;
+                    }
+                }
+            }
+
+            #curiosidades{
+                margin-left: 20px;
+            }
+        }
+    }
+}
+

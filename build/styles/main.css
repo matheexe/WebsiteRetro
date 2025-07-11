@@ -1,0 +1,75 @@
+body {
+  font-family: "Special Gothic Condensed One", sans-serif;
+  background-image: url("../../src/images/bg.jpg");
+  color: #fff;
+}
+body .container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+body .container header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #0c0cff;
+}
+body .container header img {
+  width: 100px;
+}
+body .container header h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+body .container header .header-bio {
+  text-align: center;
+}
+body .container header .header-bio .fixed-clock {
+  color: #d94f4f;
+  padding: 5px;
+  border: 2px solid #ccc;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+body .container main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #111;
+}
+body .container main #ads {
+  color: #111;
+  padding: 20px;
+  background-color: #d94f4f;
+}
+body .container main #ads h3 {
+  font-weight: 200;
+  font-size: 1.1em;
+}
+body .container main #ads p {
+  margin: 0 0 15px;
+}
+body .container main #ads img {
+  max-width: 150px;
+}
+body .container main #news {
+  margin-left: 20px;
+}
+body .container main #news .news-header {
+  display: flex;
+  flex-direction: row;
+}
+body .container main #news .news-card {
+  margin-bottom: 50px;
+}
+body .container main #news .news-card h2 {
+  margin: 0;
+}
+body .container main #news .news-card p {
+  margin-top: 5px;
+}
+body .container main #curiosidades {
+  margin-left: 20px;
+}
