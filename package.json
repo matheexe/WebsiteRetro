@@ -9,7 +9,7 @@
   "scripts": {
     "copy-images": "cpx \"src/images/**/*\" build/images", 
     "compile-less": "lessc src/styles/main.less build/styles/main.css", 
-    "build": "npm run copy-images && npm run compile-less", 
+    "build": "npm run copy-images && npm run compile-less build --output public", 
     "dev": "less-watch-compiler ./src/styles ./build/styles main.less", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
