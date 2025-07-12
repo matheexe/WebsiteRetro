@@ -11,7 +11,7 @@
     "copy-images": "cpx \"src/images/**/*\" public/images",
     "copy-js": "cpx \"src/scripts/**/*\" public/scripts",
     "compile-less": "lessc src/styles/main.less public/styles/main.css",
-    "build": "npm install && npm run copy-html && npm run copy-images && npm run copy-js && npm run compile-less",
+    "build": "npm run copy-html && npm run copy-images && npm run copy-js && npm run compile-less",
     "dev": "less-watch-compiler ./src/styles ./public/styles main.less",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
