@@ -1,0 +1,77 @@
+body {
+    font-family: "Special Gothic Condensed One", sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #336699; 
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDxwYXR0ZXJuIGlkPSJkZWZhdWx0UGF0dGVybiIgcGF0dGVybldpZHRoPSIyMCIgcGF0dGVybkhlaWdodD0iMjAiIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8Y2lyY2xlIGN4PSIxMCIgY3k9IjEwIiByPSIxIiBmaWxsPSIjMjU1MzgwIi8+CiAgICA8L3BhdHRlcm4+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZGVmYXVsdFBhdHRlcm4pIi8+Cjwvc3ZnPg=='); /* Padrão sutil de bolinhas */
+    background-repeat: repeat;
+}
+
+.container {
+    background-color: #1A4E7F; /* Azul mais escuro para o container */
+    border: 1px solid #003366; /* Borda escura */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidade */
+    padding: 30px;
+    border-radius: 8px; /* Cantos levemente arredondados */
+    max-width: 600px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.error-box {
+    background-color: #2D6CA2; /* Azul médio para a caixa de erro interna */
+    border: 1px solid #004080;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra interna para efeito "deprimido" */
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 0px;
+    color: red; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 5px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    margin: 15px 0;
+    color: #E0E0E0;
+}
+
+.links a {
+    color: #FFFF09; /* Azul claro para links */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 10px;
+    border-right: 1px solid #99CCFF;
+}
+
+.links a:last-child {
+    border-right: none;
+}
+
+.links a:hover {
+    color: #FFFF99; /* Amarelo claro no hover */
+    text-decoration: underline;
+}
+
+.footer-text {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #A0A0A0;
+}
